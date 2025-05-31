@@ -5,18 +5,18 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <div class="flex items-center">
-            <span class="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            <span class="text-xl font-bold bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent">
               E&S Luxury
             </span>
           </div>
           <div class="hidden md:flex items-center gap-6">
-            <a href="#services" class="text-gray-300 hover:text-white transition-colors">Services</a>
-            <a href="#gallery" class="text-gray-300 hover:text-white transition-colors">Gallery</a>
-            <a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a>
-            <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Reviews</a>
+            <a href="#services" class="text-gray-300 hover:text-blue-300 transition-colors">Services</a>
+            <a href="#gallery" class="text-gray-300 hover:text-blue-300 transition-colors">Gallery</a>
+            <a href="#about" class="text-gray-300 hover:text-blue-300 transition-colors">About</a>
+            <a href="#testimonials" class="text-gray-300 hover:text-blue-300 transition-colors">Reviews</a>
             <button
               @click="handleCall"
-              class="bg-white text-black font-medium py-2 px-6 rounded-full hover:bg-gray-100 transition-all duration-300"
+              class="bg-blue-300 text-black font-medium py-2 px-6 rounded-full hover:bg-blue-400 transition-all duration-300"
             >
               Call Now
             </button>
@@ -72,7 +72,7 @@
       <!-- Hero Content -->
       <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Luxury Auto Detailing
+          Luxury Auto <span class="text-blue-300">Detailing</span>
           <span class="block text-3xl md:text-4xl mt-4 font-light text-gray-300">
             Delivered to Your Door
           </span>
@@ -83,13 +83,13 @@
         <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
           <button
             @click="handleBook"
-            class="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200"
+            class="bg-blue-300 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-400 transform hover:scale-105 transition-all duration-200"
           >
             Book Your Service
           </button>
           <button
             @click="handleCall"
-            class="border-2 border-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-black transition-all duration-200"
+            class="border-2 border-blue-300 text-blue-300 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-300 hover:text-black transition-all duration-200"
           >
             (619) 863-7033
           </button>
@@ -117,7 +117,7 @@
             <div class="text-gray-400">Vehicles Detailed</div>
           </div>
           <div class="animate-fade-in-delay-2">
-            <div class="text-4xl font-bold mb-2">5.0★</div>
+            <div class="text-4xl font-bold mb-2">5.0<span class="text-blue-300">★</span></div>
             <div class="text-gray-400">Google Rating</div>
           </div>
           <div class="animate-fade-in-delay-3">
@@ -132,7 +132,7 @@
     <section id="gallery" class="py-20 px-4 bg-gray-950">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Work</h2>
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">Our <span class="text-blue-300">Work</span></h2>
           <p class="text-xl text-gray-400">See the difference professional detailing makes</p>
         </div>
         
@@ -205,7 +205,7 @@
     <section id="services" class="py-20 px-4 bg-black">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">Our <span class="text-blue-300">Services</span></h2>
           <p class="text-xl text-gray-400">Professional care for your vehicle</p>
         </div>
         
@@ -219,7 +219,7 @@
             </div>
             <h3 class="text-2xl font-bold mb-4">Full Detail</h3>
             <p class="text-gray-400 mb-6">Complete interior and exterior transformation with premium products and meticulous attention to detail.</p>
-            <div class="text-3xl font-bold">$99+</div>
+            <div class="text-3xl font-bold text-blue-300">$99+</div>
           </div>
           
           <div class="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-600 transition-all duration-300">
@@ -230,7 +230,7 @@
             </div>
             <h3 class="text-2xl font-bold mb-4">Ceramic Coating</h3>
             <p class="text-gray-400 mb-6">Ultimate paint protection with hydrophobic nanotechnology for lasting shine and protection.</p>
-            <div class="text-3xl font-bold">$500+</div>
+            <div class="text-3xl font-bold text-blue-300">$500+</div>
           </div>
           
           <div class="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-600 transition-all duration-300">
@@ -241,7 +241,7 @@
             </div>
             <h3 class="text-2xl font-bold mb-4">Paint Correction</h3>
             <p class="text-gray-400 mb-6">Remove swirls, scratches, and imperfections to restore your vehicle's factory finish.</p>
-            <div class="text-3xl font-bold">$299+</div>
+            <div class="text-3xl font-bold text-blue-300">$299+</div>
           </div>
         </div>
       </div>
@@ -253,7 +253,7 @@
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 class="text-4xl md:text-5xl font-bold mb-6">
-              Why Choose E&S Luxury?
+              Why Choose <span class="text-blue-300">E&S Luxury?</span>
             </h2>
             <p class="text-lg text-gray-300 mb-8">
               With over 15 years of experience, we've perfected the art of automotive detailing. Our commitment to excellence and attention to detail sets us apart.
@@ -311,7 +311,7 @@
               </video>
               <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </div>
-            <div class="absolute -bottom-6 -right-6 bg-white text-black p-6 rounded-2xl shadow-2xl">
+            <div class="absolute -bottom-6 -right-6 bg-blue-300 text-black p-6 rounded-2xl shadow-2xl">
               <div class="text-3xl font-bold">5★</div>
               <div class="text-sm">Google Rating</div>
             </div>
@@ -324,7 +324,7 @@
     <section id="testimonials" class="py-20 px-4 bg-black">
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">What Our Clients Say</h2>
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">What Our <span class="text-blue-300">Clients Say</span></h2>
           <p class="text-xl text-gray-400">Real reviews from satisfied customers</p>
         </div>
         
@@ -380,18 +380,18 @@
     <!-- CTA Section -->
     <section class="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Experience Luxury?</h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Experience <span class="text-blue-300">Luxury?</span></h2>
         <p class="text-xl text-gray-300 mb-8">Book your professional detailing service today</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             @click="handleBook"
-            class="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200"
+            class="bg-blue-300 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-400 transform hover:scale-105 transition-all duration-200"
           >
             Book Now
           </button>
           <button
             @click="handleCall"
-            class="border-2 border-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-black transition-all duration-200"
+            class="border-2 border-blue-300 text-blue-300 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-300 hover:text-black transition-all duration-200"
           >
             Call (619) 863-7033
           </button>
@@ -404,7 +404,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 class="text-xl font-bold mb-4">E&S Luxury Auto Detailing</h3>
+            <h3 class="text-xl font-bold mb-4 text-blue-300">E&S Luxury Auto Detailing</h3>
             <p class="text-gray-400">San Diego's premier mobile detailing service.</p>
           </div>
           <div>
