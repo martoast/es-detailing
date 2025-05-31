@@ -78,7 +78,7 @@
           </span>
         </h1>
         <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto animate-fade-in-delay">
-          Professional detailing service with over 15 years of expertise
+          Professional detailing service with over 5 years of expertise
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
           <button
@@ -109,7 +109,7 @@
       <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div class="animate-fade-in">
-            <div class="text-4xl font-bold mb-2">15+</div>
+            <div class="text-4xl font-bold mb-2">5+</div>
             <div class="text-gray-400">Years Experience</div>
           </div>
           <div class="animate-fade-in-delay">
@@ -256,7 +256,7 @@
               Why Choose <span class="text-blue-300">E&S Luxury?</span>
             </h2>
             <p class="text-lg text-gray-300 mb-8">
-              With over 15 years of experience, we've perfected the art of automotive detailing. Our commitment to excellence and attention to detail sets us apart.
+              With over 5 years of experience, we've perfected the art of automotive detailing. Our commitment to excellence and attention to detail sets us apart.
             </p>
             
             <div class="space-y-6">
